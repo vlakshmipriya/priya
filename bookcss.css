@@ -1,0 +1,313 @@
+*{
+margin:0px;
+padding:0px;
+}
+body
+{  
+	background:url("b1.jpg");
+	background-repeat:no-repeat; 
+	background-attachment:scroll;
+	background-size:100% 100%;
+	}
+#root{
+width:990px;
+height:auto;
+margin:auto;
+text-transform:capitalize;
+}
+#header
+{
+height:60px;
+width:100%;
+background:#404040;
+ }	
+  #header #head h1:first-letter {
+  color:white;
+  text-transform:uppercase;
+  }
+ #header #head h1{
+color:#558C89;	 
+margin-left:10px;
+padding-top:15px;
+text-align:center;
+font-family:Corbel; 
+ }
+ #header #head{
+width:30%;
+ height:100%;
+ float:left;
+ }
+ #header #list ul{
+ list-style:none;
+ margin-top:1.5%;
+margin-left:5%; 
+ } 
+ #header #list li:hover{
+ background:white;
+ border-radius:5px;
+ }
+ #header #list li>a
+ {
+	 color:#D9853B;
+	font-size:16px;	
+	font-family:Corbel;
+	text-decoration:none;
+ }
+  #header #list li{
+	 
+  text-align:center;
+  font-size:16px;	
+	font-family:Corbel;
+  float:left;
+  margin-left:5%;
+  margin-right:5%;
+  padding:2%;
+ }
+ #header #list{
+width:70%;
+height:100%;
+float:right;
+ } 
+ #slidepic marquee{
+	 width:100%;
+	 color:#212F3C;
+	 font-size:22px;
+	  	 text-decoration:underline;
+ } 
+#slidepic {
+	width:100%;
+	height:250px;
+   background:url("images2.jpg");
+   background-size:100% 100%;
+   background-repeat:no-repeat;
+	}
+ #subheader ul{
+	list-style:none;
+	}
+ #subheader ul li>a{
+color:white;	 
+	line-height:50px;
+	text-align:center;
+	float:left;
+	margin-left:4%;
+	margin-right:2.5%;
+	font-size:18px;
+	text-decoration:none;
+		padding:0% 2%;
+ }
+ #subheader ul li>a:hover{
+	background:yellow;
+	color:black;
+    border-radius:10px 10px 0px 0px;	
+ }
+  #subheader ul ul{
+	 display:none;
+ }
+ #subheader ul li:hover >ul{
+	 display:block;
+ }
+ #subheader {
+	 width:100%;
+ height:50px;
+background:black;
+ }
+ /*conten sidebar book*/
+#content #sidebar  ul 
+{
+	list-style:none;
+ }
+ #content #sidebar input,p
+ {
+	 margin:3px auto;
+ }	 
+     #content #sidebar p
+	 { 
+	 font-size:18px;
+     background:#D9853B;
+	 padding:10px;	 
+	 text-align:center;
+	 border-radius:10px 10px 0px 0px;
+	 }
+	 #content #sidebar input
+	 {
+		 font-size:17px;
+     width:100%; 
+	 height:30px;	
+	padding:5px;
+	 }
+	 #content #sidebar input[type=submit]
+	 {  
+	    color:white;
+		background:#558C89;
+	 }		 
+
+	 #content #sidebar button
+	 {  
+	    color:#003333;
+	    width:100%; 
+	 height:30px;
+	 margin:-1px;
+		background:#00FFFF;
+	 }		 
+#content #book #gal img{
+	width:13%;
+	height:30%;
+	float:left;
+  padding:3px;
+  margin-left:1px;
+	}	
+#content #book #gal {
+    float:left;
+    width:100%;
+}
+#content #bookdetails #day h4
+{
+   width:100%;
+   height:4%; 
+   color:white;  
+   background-color:black;
+   padding-top:3px;  
+   margin-top:2px; 
+   font-size:20px;  
+   border-radius:10px 10px 0px 0px;
+   text-align: center; 
+}
+#content #bookdetails #day h5
+{
+   width:100%;
+   height:20%; 
+   background-color:#D9853B; 
+   text-align: center; 
+}
+#content #bookdetails #feedback
+{   
+   width:100%;
+   height:20%;   
+}
+#content #bookdetails #feedback input
+{   
+   width:100%;   
+   height:70%;
+   border-radius:10px;  
+   margin-top:2px;  
+}
+#content #bookdetails #feedback button
+{
+   width:100%;   
+   height:20%;
+   border-radius:10px;
+   margin-top:5px;
+   margin-left:1px;
+   font-size:16px; 
+   background-color:#00FFFF; 
+   color:black;  
+       
+}
+#content #bookdetails #bookcost
+{
+   width:100%;
+   height:30%; 
+}
+#content #bookdetails #bookcost h3
+{
+	width:100%;
+	height:15%;
+	color:white;
+	padding-top:2px;
+	border-radius:10px 10px 0px 0px;
+	background-color:black;
+	text-align: center;  
+}
+#content #bookdetails #bookcost h4
+{
+   font-size:16px;
+   padding:5px;
+   margin:1px auto;    
+   background-color:#00FFFF;
+}
+#content #sidebar
+{
+	width:20%;
+	height:100%;
+	float:left;
+	}
+#content #book
+{
+	width:60%;
+	height:100%;
+	float:left;
+}
+#content #bookdetails
+{
+	width:20%;
+	height:100%;
+	float:right;  
+}
+/*this is for book details*/
+#content #book>img 
+{   
+    width:40%;
+    background:yellow;
+	margin:0.5% auto;
+}
+#content #book #bookdet button
+{   
+    width:30%;
+	padding:2%;
+	background:#D9853B;
+}
+#content #book #bookdet
+{
+	width:60%;
+	color:#558C89;
+	float:right;
+	margin-top:10%; 
+ }
+#content #book #bookdet h4
+{   
+     
+	font-style:Arial;
+	letter-spacing:1px;
+}
+#content #book #bookdet h4,button
+{
+	padding:2%;
+	margin-left:5%;
+}
+#content
+{
+	width:100%;
+	height:700px;
+ background:#404040;
+	}
+	/*end of content*/
+ /*footer */
+	.fa{
+	 color:#74AFAD;
+	 font-size:10px;
+	  padding-right:5px;
+ }
+ #footer ul{	
+	 list-style:none;
+	padding:1.5%;
+     margin-left:2%;
+     margin-right:1%;	 
+ }
+ #footer li{
+	 font-size:20px;	
+ 	font-family:Corbel;
+      display:inline;
+	  padding:1.5%;
+	  margin-left:4%;
+	  margin-right:3%;	  
+	 }
+	 #footer li:hover{
+		 background:white;
+		 border-radius:0px 10px 0px 10px;
+	 } 
+ #footer 
+ {	
+ width:100%;
+height:50px;
+background:#D9853B;
+ }

@@ -1,0 +1,113 @@
+<!Doctype>
+<html>
+<head>
+<title>my book shop </title>
+<link rel="stylesheet" href="bookcss.css"/>
+<script src="bookjavascript.js"></script>
+</head>
+<body>
+<div id="root">
+ <div id="header"> 
+  <div id="head">
+   <h1>my book shop</h1>
+  </div>
+  <div  id="list">
+  <ul>
+  <li><a href="index1.php">Home</a></li>
+   <li><a href="#" onclick="contact();">contact us</a></li>
+ <li><a href="#" onclick="aboutus();" >about us</a></li>
+ <li><a href="#" onclick="feedback();">feedback</a><li>
+  </ul>
+  </div>
+ </div>
+ <div id="slidepic">
+ <marquee  id="m1" behavior="scroll" scrollamount="10">welcome you to my shop</marquee>
+ </div>
+ <div id="subheader">
+ <ul>
+ <li><a href="newbook.php" >new book </a></li>
+ <li><a href="bestsell.php">best selling</a></li>
+ <li><a href="lastbook.php">lastest book</a></li>
+ <li><a href="bestbook.php">best publication</a></li>
+ <li><a href="oldbook.php">old book</a></li>
+ </ul>
+ </div>
+     <div id="content">
+     <div id="sidebar">
+	 <ul>
+	 <li>
+	 <form action="home.php" autocomplete="off" method="post" >
+	 <p>login form</p>
+	 <input type="text" name="username" id="name" placeholder="username"/>
+	 <input type="password" name="password" id="pword" placeholder="password"/>
+	 <input type="submit" name="login" value="log in" id="sub1" onclick="return checklogin()"/>
+	 <input  type="submit" name="signup" value="sign up" id="log1" onclick="return checksignin()"/>
+	 </form>
+	 </li>
+	 <li>  
+	 <form action="home.php" autocomplete="off" method="post" onsubmit="return bookmenu()">
+	 <p>book name</p>
+	 <input type="text" name="bookname" id="bname" placeholder="bookname"/>
+	 <p>author name</p>
+	 <input type="text" name="author" id="aname" placeholder="author name"/> 
+	 <p>price</p>
+	 <input type="number" name="price" id="cost" placeholder="price"/>
+	 <p>publication</p>
+	 <input type="publication" name="publication" id="publics" placeholder="publication"/>
+	 <input type="submit" id="booksub" name="booksub" value="apply"/>
+	 </form>
+	 </li>
+	 </ul>
+	 </div>
+     <div id="book">
+	 <div id="gal">
+	<a href="book1.html"><img src="pic1.png"/></a>
+	<a href="book2.html"><img src="pic2.jpg"/></a>
+	<a href="book3.html"><img src="pic3.jpg"/></a>
+	<a href="book4.html"><img src="pic4.jpg"/></a>
+	<a href="book5.html"><img src="pic5.jpg"/></a>
+	<a href="book18.html"><img src="pic18.jpg"/></a>
+	<a href="book6.html"><img src="pic6.jpg"/></a>
+	<a href="book7.html"><img src="pic7.jpg"/></a>
+	<a href="book8.html"><img src="pic8.jpg"/></a> 
+	<a href="book9.html"><img src="pic9.jpg"/></a>
+	<a href="book10.html"><img src="pic10.jpg"/></a>
+	<a href="book11.html"><img src="pic11.jpg"/></a>
+	<a href="book12.html"><img src="pic12.jpg"/></a>	
+	<a href="book13.html"><img src="pic13.jpg"/></a>	
+	<a href="book14.html"><img src="pic14.jpg"/></a>
+	<a href="book15.html"><img src="pic15.jpg"/></a>	
+	<a href="book16.html"><img src="pic16.jpg"/></a>	
+	<a href="book17.html"><img src="pic17.jpg"/></a>
+	 </div>
+	 </div>
+	<div id="bookdetails">
+		<div id="day">
+			<h4>today quotes</h4>
+			<h5>if u want to do somethings today else you will not do</h5>
+		</div>
+		<div id="feedback">
+           <input type="text" name="feedback"/>
+           <button>feedback</button>
+		</div>	
+		<div id="bookcost">
+		<h3>Book details</h3>
+		<h4>name=</h4>
+		<h4>price=</h4>
+		<h4>author=</h4>
+		<h4>publication=</h4>
+	    </div>
+	</div> 
+ </div>
+ <div id="footer">
+  <ul>
+  <li><i class="fa fa-facebook"></i>facebook</li>
+  <li><i class="fa fa-twitter"></i>titter</li>
+  <li><i class="fa fa-envelope"></i>email</li>
+  <li><i class="fa fa-instagram"></i>instragram</li>
+  <li><i class="fa fa-google"></i>google</li> 
+  </ul>
+ </div>                 
+ </div>
+</body>
+</html>
